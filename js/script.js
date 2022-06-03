@@ -63,7 +63,7 @@ menu.addEventListener("click", function (e) {
 let popularButtons = document.querySelectorAll('.popular-products__button-category');
 let popularContents = document.querySelectorAll('.popular-products__body');
 
-if(popularTabs.length > 0) {
+if(popularButtons.length > 0) {
   for (let index = 0; index < popularButtons.length; index++) {
     const popularButton = popularButtons[index];
     const popularContent = popularContents[index];
